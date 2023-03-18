@@ -1,0 +1,39 @@
+html {
+  font-size: 10px;
+  background-color: #121231;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  text-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.591);
+  font-family: "Courier New", Courier, monospace;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.keycode {
+  font-size: 20rem;
+}
+
+.key {
+  font-size: 5rem;
+  color: #00cd00;
+}
+
+.hint-text {
+  font-size: 4rem;
+}
+
+.JS-keycode {
+  font-size: 2rem;
+}
